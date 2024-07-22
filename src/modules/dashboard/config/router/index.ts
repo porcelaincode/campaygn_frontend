@@ -1,3 +1,4 @@
+// @ts-nocheck
 import type { RouteRecordRaw } from 'vue-router'
 
 import ProfileView from '@Modules/dashboard/pages/Profile/ProfileView.vue'

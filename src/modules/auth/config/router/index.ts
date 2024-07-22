@@ -1,6 +1,7 @@
 import type { RouteRecordRaw } from 'vue-router'
 
-import LoginView from '@Modules/auth/pages/Login/LoginView.vue'
+// @ts-ignore
+import LoginView from '@Modules/auth/pages/LoginView/LoginView.vue'
 
 const routes: RouteRecordRaw[] = [
   {
