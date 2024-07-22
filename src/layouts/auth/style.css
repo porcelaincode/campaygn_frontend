@@ -1,0 +1,27 @@
+.login-layout {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #24263a;
+  background-image: url('https://app.campaygn.com/img/login_bg.44c3fe35.png');
+  background-size: cover;
+  min-height: 100vh;
+  color: #ffffff;
+}
+
+.logo {
+  margin-top: 50px;
+}
+
+.tagline {
+  margin-top: 10px;
+  font-size: 1.2em;
+  text-align: center;
+  max-width: 80%;
+}
+
+.login-error {
+  color: red;
+  margin-top: 10px;
+}

@@ -1,0 +1,34 @@
+@font-face {
+  font-family: 'Anurati-Regular';
+  src: url('./assets/fonts/Anurati-Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 436px;
+  overflow: hidden;
+}
+
+.logo {
+  font-family: 'Anurati-Regular', sans-serif;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.welcome-text-login {
+  margin-top: 10px;
+  font-size: 13px;
+  text-align: center;
+  color: #999999;
+}
+
+.login-error {
+  color: red;
+  font-size: 13px;
+  margin-top: 10px;
+}

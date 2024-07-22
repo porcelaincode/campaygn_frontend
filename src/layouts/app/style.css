@@ -1,0 +1,22 @@
+.app-layout {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #24263a;
+  background-image: url('https://app.campaygn.com/img/login_bg.44c3fe35.png');
+  background-size: cover;
+  min-height: 100vh;
+  color: #ffffff;
+  background-color: #282f42;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 1em;
+}
+
+main {
+  flex: 1;
+  padding: 1em;
+}

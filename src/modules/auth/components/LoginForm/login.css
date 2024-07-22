@@ -1,0 +1,70 @@
+.login-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  overflow: hidden;
+}
+
+.login-input {
+  width: 100%;
+  background-color: transparent;
+  border-bottom: 1px solid #979797;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  color: #fff;
+  font-size: 14px;
+  margin-top: 60px;
+}
+
+.login-input:focus {
+  outline: none;
+  border-color: #ffffff;
+}
+
+.login-button {
+  background-color: #eb5757;
+  font-size: 16px;
+  padding: 12px;
+  margin-top: 40px;
+  border-radius: 8px;
+  border: none;
+  font-weight: 700;
+  text-align: center;
+  color: #fff;
+  width: 100%;
+}
+
+.forgot-button {
+  width: 100%;
+  border: none;
+  background-color: transparent;
+  opacity: 0.64;
+  font-size: 13px;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.37px;
+  text-align: right;
+  color: #fff;
+  line-height: 53px;
+  cursor: pointer;
+}
+
+.influencer-button {
+  color: #fff;
+  background-color: transparent;
+  font-size: 14px;
+  font-weight: 600;
+  font-style: normal;
+  letter-spacing: 0.02px;
+  text-align: center;
+  margin-top: 60px;
+  border: none;
+  width: 100%;
+}
+
+.influencer-button:hover {
+  cursor: pointer;
+}
